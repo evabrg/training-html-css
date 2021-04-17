@@ -1,0 +1,64 @@
+.introduction, h2
+{
+	color: blue; /* Commentaire */ 
+}
+
+h3
+{
+	color: pink;
+	text-align: right;
+	color: red;
+}
+
+p
+{
+	font-size: 1.2em
+	font-family: "Times New Roman", Impact, Arial;
+	font-style: italic;
+	font-weight: bold;
+	text-align: justify;
+}
+
+h1
+{
+	background-color: pink; 
+	width: 50%;
+	min-width: 400px;
+	height: 100px;
+	color: rgb(50, 168, 109); /*colorpicker */ 
+	padding: 12px
+}
+
+.visiter
+{
+	text-decoration: line-through;
+
+em
+{
+	font-style: normal;
+}
+
+.framboise
+{
+	text-decoration: line-through;
+}
+
+.imageflottante
+{
+	float: left;
+}
+
+body
+{
+	background-image: url(fondecran.jpg);
+}
+
+a:hover
+{ text-decoration: none;
+color: green;
+}
+
+
+
+
+

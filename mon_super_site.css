@@ -1,0 +1,54 @@
+body
+{
+	background-color: rgb(218, 247, 247);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+h1
+{
+	text-align: center;
+	border: 3px red inset; 
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px red;
+	text-shadow: 6px 6px 5px black;
+}
+
+h2
+{
+	text-align: right;
+}
+
+a:hover /* Apparence au survol des liens */ 
+{ 
+	text-decoration: none;
+	color: green; 
+ }
+
+ p:hover /* Quand on pointe sur un paragraphe */ 
+ { 
+ 	text-decoration: none;
+ 	color: red;
+  }
+
+  a:active /* Quabd le visiteur clique sur le lien */ 
+  { 
+  	background-color: #FFCC66;
+   }
+
+ a:focus /* Quand le visiteur sélectionne le lien */ 
+ { 
+ 	background-color: #FFCC66;
+  }  
+
+  a:visited /* Quand le visiteur a déjà vu la page concernée */ 
+  {
+  	color: #AAA; /* Appliquer une couleur grise */ 
+   }
+
+
+
+
+
+
